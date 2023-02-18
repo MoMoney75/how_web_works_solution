@@ -1,0 +1,35 @@
+1.Part One: Solidify Terminology
+In your own terms, define the following terms:
+
+What is HTTP?
+ANSWER: HTTP is a global set of standards and rules used for sending and getting data to/from servers.
+
+What is a URL?
+ANSWER: URL stands for Uniform Resource Locator. Represents the location(address) of a given web page or resource.
+
+What is DNS?
+ANSWER: A system that reads human readable text and converts it to an IP address
+
+What is a query string?
+ANSWER: A query string is a search term that a web page uses to GET data based on a user's input. A query string
+gets passes into the url and a webpage is returned as a result of the seach term entered into the query string. 
+
+What are two HTTP verbs and how are they different?
+ANSWERS: GET- returns data to a user from a server without affecting or changing any data in that server or database.
+POST - Alters data in a server or database based on user inputs.
+
+What is an HTTP request?
+ANSWER: A request from a user to a server
+
+What is an HTTP response?
+ANSWER: The response is what the browser returns from the server that a user requested. 
+
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+ANSWER: The header is made up of meta data from a users HTTP request and meta data from the web browsers response
+back to the user. An example of a request header would be the language that a user prefers the returned data in.
+An example of a response header would be the "Content Type" that is returned to a user(like html).
+
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+ANSWER: First the web browser will resolve the name into and IP address using a DNS server. 
+Next, the browser will send a request to a server based on the user's request. Then, the server will return an
+HTTP response to the user. Next, the browser will return the HTTP response in a way that the user can read. 
